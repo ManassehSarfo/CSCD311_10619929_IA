@@ -1,0 +1,81 @@
+*{
+margin-top:5px;
+margin-right:5px;
+}
+h1{
+padding:10px;
+border-bottom: 2px solid orange;
+}
+input,.select{
+height:40px;
+width:200%;
+border:2px solid orange;
+border-radius: 5px;
+font-size:150%;
+}
+#login{
+position:absolute;
+background-color: rgba(2,23,2,0.7);
+float: top;
+width:55%;
+height:35%;
+border-radius:5px;
+border:2px solid orange;
+padding:5px;
+z-index: 10;
+margin-left:20%;
+margin-top:22%;
+
+}
+#button{
+height:30px;
+width:100px;
+border-radius:5px;
+}
+#footer{
+background-color:orange;
+font-family:Arial Black;
+margin-left: 0px;
+border:2px solid white;
+float: bottom;
+}
+image{
+position:relative;
+}
+label{
+background-color:white;
+margin: 5px;
+border: 2px solid gray;
+border-radius: 5px;
+padding:7px;
+}
+#profilePic{
+padding-left:10%;
+border-radius:50%;
+
+}
+#menu{
+	border-radius:5px;
+}
+#options{
+	position:absolute;
+	font-size:60px;
+	margin:5%;
+	margin-left:30%;
+	font-family:default;
+}
+#options:hover{
+	color:white;
+	text-shadow: 0 0 10px orange;	
+}
+.options{
+	border-left: 2px solid white;
+	text-decoration:none;
+	color: black;
+	margin-left:20px;
+	padding-left:5px;
+}
+button:hover{
+		background: linear-gradient(60deg,#03a9f4,#ffffff2,#ffeb3b,#03a9f4);
+		background-size:300%;
+}

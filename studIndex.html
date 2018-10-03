@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<header>
+<title>Stud-Data.com</title>
+<link rel="stylesheet" href="studStyle.css" type="text/css"/>
+<script language="javascript" type="text/javascript">
+
+	function openAm(){
+		if(form.username=="Manasseh" && form.password=="Password"){
+			window.open("studData.html");
+		}else{
+			window.alert("Incorrect login");
+		}
+	}
+console.log("Administrator Account");
+	</script>
+</header>
+<body style="background-color:gray">
+<h1 style="background-color:black; color:white;">Stud-Data.com</h1>
+<div id="main">
+
+<div id="login">
+	<form style="font-family:Verdana" method="post"><table cellspacing="15px">
+	<tr>
+	<td><label for="username">Username</label></td>
+	<td><input name="username" type="text" placeholder="Please enter Username" /></td>
+	</tr>
+	<tr>
+	<td><label for="password">Password</label></td>
+	<td><input name="password" type="password" placeholder="Please enter Password" /></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><button id="button" onclick="openAm()">Sign In</button></td>
+	</tr>
+</table></form></div>
+<image name="img" src="Capture27.png" width="100%" height="auto"/>
+</div>
+</body>
+<footer id="footer"><marquee>
+<p>Stud-Data.com</p></marquee>
+</footer>
+</html>
